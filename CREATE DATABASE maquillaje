@@ -13,11 +13,9 @@ INSERT INTO PRODUCTO (descripcion, precio, stock) VALUES
 ('Paleta de sombras', 25.50, 30),
 ('Labial mate', 9.99, 100),
 ('Rímel', 12.75, 40),
-('Delineador', 7.50, 60);
+('Delineador', 7.50, 60); 
  
-Hola 
- 
-Este Main: from data import AppMaquillaje
+Main: from data import AppMaquillaje
  
 def menu_principal():
     print("\033[95m-------------------------------\033[0m")
